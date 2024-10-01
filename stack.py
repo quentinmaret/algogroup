@@ -14,10 +14,6 @@ an abstract base class for any Stack implementation.
 Using the nodes, I can dynamically add and remove
 elements from the stack by adjusting the pointers to
 the 'next' attribute of a node.
-
-Given my limited knowledge of C++, I opted to use python.
-However, I can easily see how I to implement this using
-structs and pointers in C to achieve the same functionality.
 """
 from abc import ABC, abstractmethod
 from typing import Optional
